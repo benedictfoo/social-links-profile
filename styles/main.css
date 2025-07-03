@@ -3,13 +3,20 @@
     src: url('../fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
 }
 
+:root {
+    --main-bg: rgb(20, 20, 20);
+    --lighter-bg: rgb(31, 31, 31);
+    --even-lighter-bg: rgb(51, 51, 51);
+    --accent: rgb(123, 144, 66);
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: var(--main-bg);
     font-family: 'Inter', sans-serif;
     color: white;
 }
