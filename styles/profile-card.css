@@ -1,3 +1,44 @@
 .profile-card__image {
     border-radius: 50%;
 }
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(31, 31, 31);
+    padding: 2rem;
+    margin: 0 1rem;
+}
+
+.profile-card__user-location {
+    color: rgb(123, 144, 66);
+}
+
+.profile-card__link {
+    background-color: rgb(51, 51, 51);
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+
+}
+
+.profile-card__links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    width: 100%;
+}
+
+.profile-card__links li {
+    display: block;
+}
+
+#profile-card__description, .profile-card__link {
+    text-align: center;
+}

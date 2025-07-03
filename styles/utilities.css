@@ -5,4 +5,10 @@
     align-items: center;
     min-height: 100vh;
     gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.rounded-border {
+    border-radius: .5em;
 }
